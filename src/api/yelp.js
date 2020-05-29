@@ -4,7 +4,7 @@ import axios from 'axios';
 export default axios.create({
     baseURL:'https://api.yelp.com/v3/businesses',
     headers:{
-        Authorazation:'Bearer -qiwZ8_uFStKod8rIFAF-hOmbxaBLlRs_xvZeXerRXtJ7PoJVJiPsSd2ROqyYiVMbaG2A1PwM5hIb2HqHIVKX7cbohrmzU2738dEmbvFW84ANhjiQslpgdBOO3rOXnYx'
+        Authorization:'Bearer i6Zj__siS5hiRDZyr6Jmg56ymD92xmTaSRKnximhRRpVuP7Q6NVnXwHoTX0KesQY21m0Pi4aRyFj02DwyTepp8Id9ubBRvIaH1_Aa0V0tPQu7fHA5HRgozwaXfzQXnYx'
     }
 
 });
