@@ -37,7 +37,7 @@ const SearchBar = ({term, onTermChange, onTermSubmit}) => {
     iconStyle:{
       fontSize:35,
       alignSelf:"center",
-      marginHorizontal: 10
+      marginHorizontal: 15
     }
 
   });
