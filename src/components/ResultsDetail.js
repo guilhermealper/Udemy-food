@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, Image, Text, StyleSheet} from 'react-native';
-import ResultsList from './ResultsList';
 
 const ResultsDetail = ({result}) => {
     return(
@@ -17,7 +16,8 @@ const ResultsDetail = ({result}) => {
 const styles = StyleSheet.create({
     imgSty:{
         width: 200,
-        height: 200,
+        height:200,
+        resizeMode:'cover',
         borderRadius: 4,
         marginBottom: 5
     },
